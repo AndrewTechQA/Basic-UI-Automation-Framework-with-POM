@@ -9,7 +9,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('test name', async ({ page }) => {
-
+    await expect(page).toHaveURL('https://delekhomes.com/');
 
 //! EXAMPLES
 // await delekHomePage.clickDiscoverBtn.click();
