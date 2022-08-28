@@ -8,8 +8,15 @@ test.beforeEach(async ({ page }) => {
   await page.goto('https://delekhomes.com/');
 });
 
-test('test name', async ({ page }) => {
-   await expect(page).toHaveURL('https://delekhomes.com/');
+test.describe('test suite name', () => {
+
+  test('test name', async ({ page }) => {
+     await expect(page).toHaveURL('https://delekhomes.com/');
+    
+    
+    
+  });
+});
 
 //! EXAMPLES
 // await delekHomePage.clickDiscoverBtn.click();
@@ -35,5 +42,3 @@ test('test name', async ({ page }) => {
 // await delekHomePage.nextBtn.click();
 // await delekHomePage.madPawsIcon.click();
 
-
-});
