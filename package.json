@@ -1,0 +1,13 @@
+{
+  "name": "week-14-delek-homes-ui-automation",
+  "version": "1.0.0",
+  "description": "🆆🅴🅴🅺-12-🅰🅻🅶🅾🆁🅸🆃🅷🅼 🅲🅷🅰🅻🅻🅴🅽🅶🅴🆂",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.25.1"
+  }
+}
